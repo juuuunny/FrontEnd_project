@@ -1,0 +1,120 @@
+.loginBox {
+  width: 380px;
+  height: 200px;
+  margin: 0px auto;
+  padding-top: 220px;
+}
+.logo {
+  cursor: pointer;
+}
+.man {
+  width: 86px;
+  height: 189px;
+  margin-left: 5rem;
+}
+.txt {
+  display: inline-block;
+  margin-left: 20px;
+  width: 124px;
+  height: 52px;
+  color: #66c109;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+.loginInput {
+  display: flex;
+  flex-direction: column;
+}
+.loginInput input {
+  width: 370px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #aeb4dd;
+  background: #fff;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.loginInput input::placeholder {
+  color: lightgray;
+}
+
+.button {
+  width: 380px;
+  height: 24px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button Button {
+  border: none;
+  background-color: inherit;
+  color: #66c109;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.lineBox {
+  position: relative;
+}
+.line {
+  margin-top: 30px;
+  width: 45%;
+  float: left;
+  border: 1px solid;
+}
+.line2 {
+  margin-top: 30px;
+
+  width: 45%;
+  float: right;
+  border: 1px solid;
+}
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 230px;
+  padding-bottom: 182px;
+}
+.Button {
+  background: white;
+  color: #444;
+  width: 380px;
+  height: 46px;
+
+  border: 1px solid #e6e6ea;
+  margin: 10px auto 0;
+  font-size: 14px;
+}
+
+.naver {
+  color: #767678;
+  font-weight: 500;
+  font-family: "Inter";
+  background-color: #ffffff;
+}
+.google {
+  color: #767678;
+  font-weight: 500;
+  background-color: #ffffff;
+  font-family: "Inter";
+}
+.Button:hover {
+  cursor: pointer;
+}
+.buttonText {
+  margin-left: 13px;
+  display: flex;
+}
+
+.btnLogo {
+  width: 6%;
+  height: 6%;
+  margin: auto 20px auto 0px;
+}

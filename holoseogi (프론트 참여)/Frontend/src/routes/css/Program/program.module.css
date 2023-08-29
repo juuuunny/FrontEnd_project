@@ -1,0 +1,73 @@
+.post {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1180px;
+}
+
+.box {
+  border-radius: 16px;
+  background-color: #e7e7e799;
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+  width: 428px;
+  height: 242px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+.firstButton {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 270px;
+  width: 1180px;
+}
+
+.secondButton {
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+
+  width: 1180px;
+}
+
+.firstButton span {
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.secondButton span {
+  margin-left: 10px;
+  margin-right: 24px;
+}
+
+.firstButton Button,
+.secondButton Button {
+  margin-left: 20px;
+  cursor: pointer;
+
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid gray;
+}
+
+.firstButton Button:focus,
+.secondButton Button:focus {
+  background-color: #66c109;
+  color: white;
+  border: 1px solid gray;
+  border: none;
+}
+
+.firstButton Button[data-checked="true"],
+.secondButton Button:focus {
+  background-color: #66c109;
+  color: white;
+  border: 1px solid gray;
+  border: none;
+}

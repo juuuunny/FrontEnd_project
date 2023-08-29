@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 180px;
+  justify-content: center;
+}
+
+.menu div {
+  width: 196px;
+  height: 53px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu Button {
+  background-color: #fafafa;
+  border: none;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  width: 196px;
+  height: 33px;
+  color: #444444;
+}
+
+.menu Button:hover {
+  cursor: pointer;
+}

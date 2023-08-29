@@ -1,0 +1,87 @@
+.man {
+  width: 60px;
+  height: 136px;
+  position: absolute;
+}
+
+.logobox {
+  position: absolute;
+  width: 265px;
+  height: 59px;
+  top: 80px;
+  left: 60px;
+}
+
+.holo {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 2.4px;
+  text-align: left;
+  margin-bottom: 6px;
+  color: #66c109;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #555555;
+}
+
+.woman {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  top: 74px;
+  left: 306px;
+}
+
+.login {
+  border: none;
+  color: #66c109;
+  background-color: #fafafa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+.logindiv {
+  position: absolute;
+  width: 153px;
+  height: 20px;
+  right: 0px;
+  top: 57px;
+}
+
+.mybutton {
+  border: none;
+  color: #66c109;
+  background-color: #fafafa;
+  color: #66c109;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mybutton:hover {
+  cursor: pointer;
+}
+.myimg {
+  display: flex;
+
+  width: 19.038px;
+  height: 18.5px;
+  flex-shrink: 0;
+}

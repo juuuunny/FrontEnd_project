@@ -1,0 +1,147 @@
+.board {
+  display: flex;
+  margin-top: 264px;
+  flex-direction: column;
+  width: 1180px;
+  height: 1021px;
+  box-shadow: 0px 4px 10px 0px rgba(102, 193, 9, 0.2);
+  border-radius: 16px;
+  background-color: white;
+}
+
+.boardTitle {
+  margin-left: 100px;
+  margin-top: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 189px;
+  height: 31px;
+}
+
+.button {
+  margin-left: 100px;
+  margin-top: 34px;
+}
+
+.button Button {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 74px;
+  height: 25px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid gray;
+}
+
+.button Button:focus {
+  background-color: #66c109;
+  color: white;
+  border: 1px solid gray;
+  border: none;
+}
+
+.button Button[data-checked="true"] {
+  background-color: #66c109;
+  color: white;
+  border: 1px solid gray;
+  border: none;
+}
+
+.post {
+  margin-left: 100px;
+  margin-top: 56px;
+  width: 980px;
+  height: 746px;
+}
+
+.tenPost {
+  height: 600px;
+  width: 980px;
+  box-sizing: border-box;
+}
+
+.line {
+  box-sizing: "border-box";
+  display: flex;
+  align-items: center;
+  width: 980px;
+  height: 60px;
+  border-top: 1px solid #989898;
+  border-bottom: 1px solid #989898;
+}
+
+.search {
+  width: 240px;
+  margin-left: 4px;
+  padding-left: 8px;
+}
+
+.searchbutton {
+  margin-top: 2px;
+  width: 60px;
+  height: 36px;
+  margin-left: 10px;
+}
+/* 
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e2e2e2;
+  margin: 4px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+li.active a {
+  color: white;
+}
+
+li.active {
+  background-color: #337ab7;
+}
+
+li:hover {
+  background-color: #66c109;
+}
+
+li:hover a {
+  color: white;
+}
+
+.page-selection {
+  width: 48px;
+  height: 30px;
+  background-color: #66c109;
+} */

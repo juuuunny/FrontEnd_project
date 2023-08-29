@@ -1,0 +1,32 @@
+.changeTop {
+  margin-left: 66px;
+  margin-top: 21px;
+  color: #444;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  width: 980px;
+}
+
+.changeLabel {
+  margin-top: -6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 752px;
+  background-color: #f9f9f9;
+  color: #444;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.changeLabel div {
+  margin-top: 11px;
+}

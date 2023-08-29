@@ -1,0 +1,312 @@
+.postBox {
+  width: 980px;
+  height: 700px;
+  border-top: solid 1px #989898;
+  border-bottom: solid 1px #989898;
+  margin-top: 300px;
+  margin: 300px auto 0;
+}
+.titleText {
+  margin-left: 20px;
+}
+.postTitle {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 24px;
+  height: 60px;
+  display: flex;
+  background-color: #eaeaea;
+  align-items: center;
+}
+.subTitleBox {
+  display: flex;
+  width: 980px;
+  height: 60px;
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 18px;
+}
+.subTitle {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.line {
+  margin: 0px;
+  background: #989898;
+  height: 1px;
+  border: 0;
+}
+.mainText {
+  color: #000000;
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 18px;
+  padding: 30px 10px;
+  white-space: pre-wrap;
+  /* 줄바꿈처리 */
+  width: 950px;
+  height: 400px;
+  position: relative;
+}
+
+.recruitment {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  display: flex;
+  margin-left: 330px;
+}
+.recruitmentMentee {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  position: absolute;
+  margin-left: 840px;
+}
+.mentoring {
+  width: 325px;
+  height: 168px;
+  background: #ffffff;
+  box-shadow: -2px 5px 13px rgba(161, 83, 255, 0.15);
+  border-radius: 18px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: right;
+}
+.mentoringText {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #373737;
+
+  text-align: center;
+}
+.mentoringBtn {
+  box-shadow: -2px 5px 13px rgba(253, 255, 146, 0.48);
+  border-radius: 101px;
+  width: 137px;
+  height: 56px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Jost";
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+
+  background: #66c109;
+}
+.createBtn {
+  background: #66c109;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+.popupBackground {
+  width: 100%;
+  height: 100%;
+
+  background: rgba(100, 100, 100, 0.5);
+}
+.applyPopup {
+  background-color: #fff;
+  width: 633px;
+  height: 816px;
+  border: 1px solid #000;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 406px;
+  z-index: 1000;
+}
+.applyBtn {
+  margin: 42px auto;
+  background-color: #66c109;
+  display: flex;
+  width: 425px;
+  height: 41px;
+
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.applyBtn:hover {
+  cursor: pointer;
+}
+.applyTitle {
+  color: #000;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 160px;
+  height: 19px;
+  flex-shrink: 0;
+  margin-top: 38px;
+  margin-left: 52px;
+  margin-bottom: 21px;
+}
+.applyInput {
+  width: 428px;
+  height: 45px;
+  margin-top: 3px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.applyInputBox {
+  position: flex;
+}
+.popupText {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  display: inline;
+}
+
+.inputDiv {
+  width: 433px;
+  margin-top: 11px;
+  margin-left: 100px;
+}
+.popupCancel {
+  border: 0px;
+  background-color: #fff;
+  font-size: 25px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.popupCancel:hover {
+  cursor: pointer;
+}
+
+.appliedMenteeBox {
+  width: 639px;
+  height: 170px;
+
+  background-color: #fff;
+  border-bottom: 1px solid #989898;
+}
+.appliedMenteeTitleBox {
+  width: 639px;
+  height: 60px;
+  background-color: #eaeaea;
+  border-bottom: 1px solid #989898;
+  display: flex;
+}
+
+.appliedMenteeTitle {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+
+  margin-left: 26px;
+}
+.appliedMenteeListBox {
+  height: 204px;
+  width: 264px;
+
+  display: flex;
+}
+.appliedMenteeButton {
+  width: 80px;
+  height: 84px;
+  background: #f1f1f1;
+  margin-top: 11px;
+  margin-left: 40px;
+}
+.appliedMenteeButton:hover {
+  cursor: pointer;
+}
+.appliedMenteeName {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  justify-content: center;
+  position: sticky;
+  color: #444;
+  font-family: Pretendard;
+  font-size: 12px;
+  top: 0;
+  font-weight: 400;
+}
+.appliedMenteeImg {
+  width: 80px;
+  height: 60px;
+}
+.mentoringEditDeleteBox {
+  margin-top: 23px;
+}
+.mentoringEditDeleteBtn {
+  width: 80px;
+  height: 42px;
+  margin-top: 23px;
+  background: #66c109;
+  border: 0px;
+  float: right;
+  justify-content: center;
+
+  color: #fff;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mentoringEditDeleteBtn:hover {
+  cursor: pointer;
+}
+.mentoringEndBox {
+  width: 325px;
+  height: 168px;
+  background: #ffffff;
+  box-shadow: -2px 5px 13px rgba(161, 83, 255, 0.15);
+  border-radius: 18px;
+  float: right;
+  margin-top: -80px;
+
+  border-radius: 18px;
+  background: var(--color-white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(102, 193, 9, 0.2);
+}

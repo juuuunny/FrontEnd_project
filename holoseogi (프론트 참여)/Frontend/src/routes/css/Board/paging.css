@@ -1,0 +1,48 @@
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e2e2e2;
+  margin: 4px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+li.active a {
+  color: white;
+}
+
+li.active {
+  background-color: #66c109;
+}
+
+.page-selection {
+  width: 48px;
+  height: 30px;
+  background-color: #66c109;
+}

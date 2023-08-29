@@ -1,0 +1,54 @@
+.total {
+  margin: 70px auto;
+  width: 540px;
+  height: 600px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(102, 193, 9, 0.2);
+}
+
+.signup {
+  width: 98px;
+  height: 32px;
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.totalSignUp input {
+  width: 320px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding-left: 16px;
+  margin-top: 6px;
+}
+
+.selectButton {
+  width: 76px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.selectButton[data-checked="true"] {
+  background-color: #66c109;
+  color: white;
+  border: none;
+}
+
+.check {
+  border: none;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: #cccccc;
+}
+.check[data-checked="true"] {
+  color: #66c109;
+}

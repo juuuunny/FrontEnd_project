@@ -1,0 +1,46 @@
+.content {
+  margin-top: 15px;
+  margin-left: 7px;
+  font-size: 1rem;
+  line-height: 25px;
+  margin-right: 40px;
+  overflow-y: auto;
+  height: 138px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.btn {
+  margin-top: 16px;
+}
+.btn Button {
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #66c109;
+  border: none;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.comment {
+  width: 960px;
+  height: 24px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.captionBtn {
+  margin-top: 10px;
+  width: 980px;
+}
+.captionBtn Button {
+  width: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}

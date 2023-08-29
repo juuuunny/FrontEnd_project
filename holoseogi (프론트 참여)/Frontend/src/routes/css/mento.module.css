@@ -1,0 +1,148 @@
+.searchBox {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 250px;
+  background-color: #d9d9d9;
+}
+.searchBoxContnet {
+  margin: auto;
+}
+.classify {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+.search {
+  width: 500px;
+  height: 40px;
+  margin: 0 29px;
+}
+.searchBtn {
+  width: 70px;
+  height: 40px;
+  background-color: #66c109;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.line {
+  width: 980px;
+}
+.posts {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #545454;
+}
+.postsTop {
+  width: 950px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Jost";
+  margin-top: 15px;
+}
+.postsTopName {
+  word-spacing: 10px;
+  margin-left: 10px;
+}
+.postsTopRegistInfo {
+  word-spacing: 15px;
+}
+.postsContent {
+  width: 950px;
+  height: 30px;
+  margin: 15px auto 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.postsContents {
+  margin-left: 10px;
+  display: flex;
+}
+.linkPage {
+  margin-left: 31px;
+  color: #545454;
+  text-decoration: none;
+}
+.span {
+  margin-left: 3px;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.line2 {
+  background: #e7e7e7;
+  height: 1px;
+  border: 0;
+  width: 980px;
+}
+.wirteBtn {
+  width: 70px;
+  height: 41px;
+  background-color: #66c109;
+  color: #ffffff;
+  border: none;
+  float: right;
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+}
+.buttonBox {
+  width: 980px;
+  margin: 0 auto;
+}
+.pageNum {
+  clear: right;
+  display: flex;
+  width: 300px;
+  height: 40px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.pageBtn {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  box-shadow: -2px 5px 13px rgba(161, 83, 255, 0.15);
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.page-selection {
+  width: 48px;
+  height: 30px;
+  color: #ffffff;
+}

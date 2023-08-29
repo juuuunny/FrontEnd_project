@@ -1,0 +1,132 @@
+.postBox {
+  width: 980px;
+  height: 700px;
+  border-top: solid 1px #989898;
+  border-bottom: solid 1px #989898;
+  margin: 300px auto 0;
+}
+.titleText {
+  width: 950px;
+  margin-left: 20px;
+  border: 0px solid;
+  background-color: #eaeaea;
+
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 24px;
+}
+.titleText:focus {
+  outline: 0;
+}
+.postTitle {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 24px;
+  height: 60px;
+  display: flex;
+  background-color: #eaeaea;
+  align-items: center;
+}
+.subTitleBox {
+  display: flex;
+  width: 980px;
+  height: 60px;
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 18px;
+}
+.subTitle {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.line {
+  margin: 0px;
+  background: #989898;
+  height: 1px;
+  border: 0;
+}
+.mainText {
+  color: #000000;
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 18px;
+  padding: 30px 10px;
+
+  width: 1150px;
+  height: 400px;
+}
+.mainTextInput {
+  width: 1150px;
+  height: 400px;
+  border: 0px solid;
+  resize: none;
+}
+
+.mainTextInput:focus {
+  outline: none;
+}
+.recruitment {
+  color: #000000;
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 18px;
+  float: right;
+}
+
+.mentoring {
+  width: 325px;
+  height: 168px;
+  background: #ffffff;
+  box-shadow: -2px 5px 13px rgba(161, 83, 255, 0.15);
+  border-radius: 18px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: right;
+}
+.mentoringText {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #373737;
+
+  text-align: center;
+}
+.mentoringBtn {
+  box-shadow: -2px 5px 13px rgba(253, 255, 146, 0.48);
+  border-radius: 101px;
+  width: 137px;
+  height: 56px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Jost";
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+
+  background: #66c109;
+}
+.createBtn {
+  background: #66c109;
+  color: #ffffff;
+  display: flex;
+  clear: right;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}

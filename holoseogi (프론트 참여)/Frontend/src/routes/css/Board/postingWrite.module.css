@@ -1,0 +1,73 @@
+.total {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  border: 1px solid gray;
+  margin-top: 300px;
+  width: 980px;
+  height: 580px;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.totalTop {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.totalTop span {
+  font-size: 1.1rem;
+}
+
+.cate {
+  display: flex;
+}
+.cate > div {
+  margin-left: 30px;
+}
+
+.title {
+  margin-left: 6px;
+  margin-top: 22px;
+  width: 920px;
+  height: 32px;
+  font-size: 1.2rem;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+}
+.title::placeholder {
+  color: rgb(138, 137, 137);
+}
+
+.content {
+  width: 916px;
+  margin-top: 16px;
+  margin-left: 6px;
+  padding: 16px;
+  resize: none;
+  line-height: 20px;
+  font-size: 1rem;
+}
+
+.content::placeholder {
+  color: rgb(159, 157, 157);
+}
+
+.buttonDiv {
+  margin-top: 15px;
+}
+
+.buttonDiv Button {
+  width: 80px;
+  height: 35px;
+  margin-left: 10px;
+  background-color: #66c109;
+  opacity: 0.7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
