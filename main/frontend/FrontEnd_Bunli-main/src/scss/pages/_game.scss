@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+
+.gameMainFirstClass {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../pages/components/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .num {
+    width: 300px;
+    height: 600px;
+    background-color: white;
+  }
+}
