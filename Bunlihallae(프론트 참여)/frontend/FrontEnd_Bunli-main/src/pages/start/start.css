@@ -1,0 +1,14 @@
+
+.logo{
+    width: 20em;
+    transition: transfrom 1s;
+    animation: rotateLeft 1.5s linear infinite;
+	transform-origin: 50% 50%;
+    
+}
+
+@keyframes rotateLeft {
+	to {
+		transform: rotate(360deg);
+	}
+}
